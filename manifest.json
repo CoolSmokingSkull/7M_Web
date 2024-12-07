@@ -1,0 +1,21 @@
+{
+    "name": "7M Studios",
+    "short_name": "7M",
+    "start_url": "index.html",
+    "display": "standalone",
+    "background_color": "#0b0c10",
+    "theme_color": "#66fcf1",
+    "icons": [
+      {
+        "src": "icons/icon-192.png",
+        "type": "image/png",
+        "sizes": "192x192"
+      },
+      {
+        "src": "icons/icon-512.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+    ]
+  }
+  

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>7M Studios - Blog</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <canvas id="bg-canvas"></canvas>
+
+  <header>
+    <button id="menu-toggle">Menu</button>
+    <nav id="main-nav" class="hidden">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="pwas.html">PWAs & Art</a></li>
+        <li><a href="toolbox.html">Toolbox</a></li>
+        <li><a href="forum.html">Community Board</a></li>
+        <li><a href="blog.html">Blog</a></li>
+      </ul>
+    </nav>
+    <button id="cursor-mode-toggle">Cursor: Ship</button>
+    <div id="score-display" class="hidden">Score: 0</div>
+  </header>
+
+  <main>
+    <h2 class="accent-text glitch" data-text="Blog">Blog</h2>
+    <p>Read the latest posts and updates:</p>
+    <article class="blog-entry">
+      <h3>Dev Update #2</h3>
+      <p>We integrated a community whiteboard with chat, advanced cursor modes, user font & color choices, stable ship movement, and more!</p>
+    </article>
+    <article class="blog-entry">
+      <h3>Showcase Spotlight</h3>
+      <p>Check out these user-created PWAs that push the boundaries of creativity.</p>
+    </article>
+  </main>
+
+  <div id="instructions" class="hidden" style="pointer-events:none;">
+    <p><strong>Ship Mode:</strong> Move/Touch to rotate ship, click/tap to shoot, destroy UFOs for points.</p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

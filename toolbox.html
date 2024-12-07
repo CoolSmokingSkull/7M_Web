@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>7M Studios - Toolbox</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <canvas id="bg-canvas"></canvas>
+
+  <header>
+    <button id="menu-toggle">Menu</button>
+    <nav id="main-nav" class="hidden">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="pwas.html">PWAs & Art</a></li>
+        <li><a href="toolbox.html">Toolbox</a></li>
+        <li><a href="forum.html">Community Board</a></li>
+        <li><a href="blog.html">Blog</a></li>
+      </ul>
+    </nav>
+    <button id="cursor-mode-toggle">Cursor: Ship</button>
+    <div id="score-display" class="hidden">Score: 0</div>
+  </header>
+
+  <main>
+    <h2 class="accent-text glitch" data-text="Toolbox">Toolbox</h2>
+    <p>A collection of free tools for creators and devs.</p>
+    <ul class="tools-list">
+      <li><strong>Palette Generator:</strong> Create stunning color palettes.</li>
+      <li><strong>Markdown Previewer:</strong> Preview Markdown instantly.</li>
+      <li><strong>Image Compressor:</strong> Compress images without losing quality.</li>
+    </ul>
+  </main>
+
+  <div id="instructions" class="hidden" style="pointer-events:none;">
+    <p>Ship Mode instructions appear here if in Ship Mode.</p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
